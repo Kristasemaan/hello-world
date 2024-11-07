@@ -22,19 +22,19 @@ export default function Board() {
   return (
     <>
       <div className="board-row">
-        <Sqaure/>
-        <Sqaure/>
-        <Sqaure/>
+        <Sqaure value={squares[0]}/>
+        <Sqaure value={squares[1]}/>
+        <Sqaure value={squares[2]}/>
       </div>
       <div className="board-row">
-        <Sqaure/>
-        <Sqaure/>
-        <Sqaure/>
+        <Sqaure value={squares[3]}/>
+        <Sqaure value={squares[4]}/>
+        <Sqaure value={squares[5]}/>
       </div>
       <div className="board-row">
-        <Sqaure/>
-        <Sqaure/>
-        <Sqaure/>
+        <Sqaure value={squares[6]}/>
+        <Sqaure value={squares[7]}/>
+        <Sqaure value={squares[8]}/>
       </div>
     </>
   );
