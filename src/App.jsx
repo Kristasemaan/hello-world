@@ -13,19 +13,19 @@ export default function Board() {
   return (
     <>
       <div className="board-row">
-        <Sqaure value={squares[0]}/>
-        <Sqaure value={squares[1]}/>
-        <Sqaure value={squares[2]}/>
+        <Sqaure value={squares[0]} onSquareClick={handleClick}/>
+        <Sqaure value={squares[1]} onSquareClick={handleClick}/>
+        <Sqaure value={squares[2]} onSquareClick={handleClick}/>
       </div>
       <div className="board-row">
-        <Sqaure value={squares[3]}/>
-        <Sqaure value={squares[4]}/>
+        <Sqaure value={squares[3]} onSquareClick={handleClick}/>
+        <Sqaure value={squares[4]} onSquareClick={handleClick}/>
         <Sqaure value={squares[5]}/>
       </div>
       <div className="board-row">
-        <Sqaure value={squares[6]}/>
-        <Sqaure value={squares[7]}/>
-        <Sqaure value={squares[8]}/>
+        <Sqaure value={squares[6]} onSquareClick={handleClick}/>
+        <Sqaure value={squares[7]} onSquareClick={handleClick}/>
+        <Sqaure value={squares[8]} onSquareClick={handleClick}/>
       </div>
     </>
   );
