@@ -1,4 +1,8 @@
-function Sqaure({ value }) {
+import { useState } from 'react';
+
+function Sqaure() {
+  const [value, setValue] = useState(null);
+
   function handleClick(){
     console.log('clicked')
   }
